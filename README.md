@@ -57,7 +57,9 @@ We have 2 motions:
 | Single Cust. Feature | Bugs before Features | Bugs before Features | Bugs before Features | Bugs before Features | Bugs before Features | Bugs before Features | Bugs before Features |
 
 # 1 Security Functionality (Basic Requirement a)
-![][image1]**Description:** Security is more important than anything. If we can build Core functionality but cannot make it secure then we should **not** build Core functionality and should exit this market. 
+![][image1]
+
+**Description:** Security is more important than anything. If we can build Core functionality but cannot make it secure then we should **not** build Core functionality and should exit this market. 
 
 As a security conscious company there is even more goodwill tied to this than for other companies - if the security model breaks down, for high severity issues in Security functionality we would be forced to disable core functionality until the high severity issue has  
 been corrected.
@@ -77,7 +79,9 @@ Security testing is ongoing in the production environment.
 Functionality vs Satisfaction: Rarely will higher security functionality improve the customer satisfaction, it needs to be there, it needs to work and that’s it, not working and satisfaction drops very fast. 
 
 # 2 Core Functionality (Basic Requirement b)
-![][image3]**Description:** Without this we have no reason to be in this business, this is why the customers buy this product, if this breaks then all customer value is gone. We should do this extremely well. Core Functionality includes the primitives that allows customers to create workarounds for their special needs. 
+![][image3]
+
+**Description:** Without this we have no reason to be in this business, this is why the customers buy this product, if this breaks then all customer value is gone. We should do this extremely well. Core Functionality includes the primitives that allows customers to create workarounds for their special needs. 
 
 **Customer perception of need:** for the customer this is so obvious that he need never mention it unprompted unless he had a recent bad experience. He will typically not look for this functionality in a datasheet. Customers will easily be able to see if we cannot do this, it will be painfully obvious if we cannot do this at all during a Demo or Proof of Concept. However the customer will have a hard time judging how well we do this until he has used the product for a while. 
 
@@ -96,7 +100,9 @@ Functionality vs Satisfaction: Rarely will higher security functionality improve
 Functionality vs Satisfaction: Rarely will higher core functionality improve the customer satisfaction, it needs to be there, it needs to work and that’s it, not working and satisfaction drops very fast. 
 
 # 3 Auxiliary Functionality (Basic Requirement c)
-![][image5]**Description:** a different type of Basic requirement. This is functionality to support the core functionality, without this it will be very hard for the customer to access the core functionality.  
+![][image5]
+
+**Description:** a different type of Basic requirement. This is functionality to support the core functionality, without this it will be very hard for the customer to access the core functionality.  
 
 **Customer perception of need:** for the customer this is so obvious that he need never mention it unprompted unless he had a recent bad experience. He will typically not look for this functionality in a datasheet. This functionality is more visible to the customer than the core functionality, he will see this during a demo or Proof of concept. *The customer will use his perception of the auxiliary functionality to infer the quality of the Core functionality.* 
 
@@ -115,7 +121,9 @@ Functionality vs Satisfaction: Rarely will higher core functionality improve the
 **Functionality vs Satisfaction:** Rarely will higher auxiliary functionality improve the customer satisfaction, it needs to be there, it needs to work pretty good, since this is a more visible to the customer, more is required that MVP for customer to be satisfied. 
 
 # 4 Performance functionality
-![][image6]**Description:** A Performance metric - a place where more is better: (not always speed) Unlike Threshold Functionality which are either on or off, Performance functionality exist on a continuum from bad to good where we can always improve. Low performance in this scale will lead to low customer satisfaction and high performance directly corresponds with higher satisfaction. Price closely related to this functionality: higher quality = higher price are they willing to pay. Performance functionality typically leads to diminishing returns as quality increases, diligence should be used to determine the greatest return on customer satisfaction.  
+![][image6]
+
+**Description:** A Performance metric - a place where more is better: (not always speed) Unlike Threshold Functionality which are either on or off, Performance functionality exist on a continuum from bad to good where we can always improve. Low performance in this scale will lead to low customer satisfaction and high performance directly corresponds with higher satisfaction. Price closely related to this functionality: higher quality = higher price are they willing to pay. Performance functionality typically leads to diminishing returns as quality increases, diligence should be used to determine the greatest return on customer satisfaction.  
 
 **Customer perception of need:** This is the main driver for customer purchase and churn decision. Customers will look for this in the datasheet and will compare us with the competition. *Drives objective buying decisions.* 
 
@@ -135,7 +143,9 @@ Functionality vs Satisfaction: Rarely will higher core functionality improve the
 Functionality vs Satisfaction: Linear relationship between performance and satisfaction.
 
 # 5 Bells and Whistles functionality
-![][image8]**Description:** Gizmos with a Great Wow factor that drives customers to sales. Seen as a great differentiator. Has actual practical value and super slick implementation. Causes a buzz and increases NPS.  
+![][image8]
+
+**Description:** Gizmos with a Great Wow factor that drives customers to sales. Seen as a great differentiator. Has actual practical value and super slick implementation. Causes a buzz and increases NPS.  
 Note: stay away from functionality that is all Wow and no practical use - This is "Show Horse" functionality see below. 
 
 **Customer perception of need:** Customer will not mention this unprompted, Customer typically didn't realize he had this need until we showed it to them. Once they have seen it they will quickly convince themself that they cannot live without it. Drives emotional buying decisions. 
@@ -155,7 +165,9 @@ Note: stay away from functionality that is all Wow and no practical use - This i
 **Functionality vs Satisfaction:** Even a really poor implementation of a Bells and Whistles function will impress early adopters, exponential excitement as functionality improves. 
 
 # 6 Less is more functionality (and more is worse)
-![][image10]**Description:** Bloatware Gizmo and functionality that when added will actually reduce customer satisfaction. Adds to clutter; introduces extraneous steps to reach core functionality; Introduces distractions; adds the ability for the customer to select the wrong option. **Less is More functionality** **is the deliberate development effort to REMOVE functionality that is in the way of a great outcome.**
+![][image10]
+
+**Description:** Bloatware Gizmo and functionality that when added will actually reduce customer satisfaction. Adds to clutter; introduces extraneous steps to reach core functionality; Introduces distractions; adds the ability for the customer to select the wrong option. **Less is More functionality** **is the deliberate development effort to REMOVE functionality that is in the way of a great outcome.**
 
 **Customer perception of need**: Customers are typically unable to express the need for "less is more" ; they will typically ask for more functionality to solve a problem that is better solved with less functionality. 
 
@@ -176,7 +188,9 @@ Note: stay away from functionality that is all Wow and no practical use - This i
 **Functionality vs Satisfaction:** Initial excitement over a new feature quickly turns sour as the new feature gets in the way. expanding on the feature only makes matters worse.
 
 # 7 Me too/checkbox functionality
-![][image12]**Description:** For some reason the industry is doing this, customers expect it, but strictly speaking it is neither core nor auxiliary functionality, most of our customers would still be our customers if we didn't have this. Includes features that are Check-box type features in RFC, e.g. customer needs to check the box on the RFC, but will never actually use the feature. Important for new sales, unimportant for churn. Basically the customer saw the feature in a brochure from a competitor and wants it in our product but has no real use for the feature. We make the feature so that we can claim that "we too" has that feature. 
+![][image12]
+
+**Description:** For some reason the industry is doing this, customers expect it, but strictly speaking it is neither core nor auxiliary functionality, most of our customers would still be our customers if we didn't have this. Includes features that are Check-box type features in RFC, e.g. customer needs to check the box on the RFC, but will never actually use the feature. Important for new sales, unimportant for churn. Basically the customer saw the feature in a brochure from a competitor and wants it in our product but has no real use for the feature. We make the feature so that we can claim that "we too" has that feature. 
 
 **Customer perception of need:** This is a driver for the customer purchase decision. Customers will look for this in the datasheet and will compare us with the competition. Drives emotional buying decisions. 
 
@@ -193,7 +207,9 @@ Note: stay away from functionality that is all Wow and no practical use - This i
 **Functionality vs Satisfaction:** mild unhappiness when function is not there turns to slightly happy once a MVP of functionality is available, since the function will never be used in production improving on it does nothing for the customer. 
 
 # 8 Nice to have functionality
-![][image14]**Description:** Items that will make day-to-day life a little easier, but no customer will ever base a buying or churning decision on this functionality. Well-executed "nice to have" functionality will improve NPS but not as much as Bells and Whistles. 
+![][image14]
+
+**Description:** Items that will make day-to-day life a little easier, but no customer will ever base a buying or churning decision on this functionality. Well-executed "nice to have" functionality will improve NPS but not as much as Bells and Whistles. 
 
 **Customer perception of need:** None. The customer will not mention it unprompted. Customers typically don't miss this functionality until using the product. 
 
@@ -229,7 +245,9 @@ Note: stay away from functionality that is all Wow and no practical use - This i
 **Functionality vs Satisfaction: **Satisfaction increased for one customer and dissatisfaction increased for all other customers. 
 
 # 10 Show Horse functionality
-![][image16]**Description:** The bad twin to "bells and whistles" and an extreme version of "Less of is more" functionality - this horse is all show and no work. Gizmos and Gadgets that look great and excite customers but on closer inspection does not deliver any value. A really easy and dangerous trap to fall into, typically designed by people in touch with the zeitgeist but without proper coordination with Subject Matter Experts. Result is a feature that captures the imagination and causes excitement until it is time to deliver at which point the customer experience turns to disbelief and disappointment. 
+![][image16]
+
+**Description:** The bad twin to "bells and whistles" and an extreme version of "Less of is more" functionality - this horse is all show and no work. Gizmos and Gadgets that look great and excite customers but on closer inspection does not deliver any value. A really easy and dangerous trap to fall into, typically designed by people in touch with the zeitgeist but without proper coordination with Subject Matter Experts. Result is a feature that captures the imagination and causes excitement until it is time to deliver at which point the customer experience turns to disbelief and disappointment. 
 
 **Customer perception of need: **Customer will not mention this unprompted, Customer typically didn't realize he had this need until we showed it to him. Once he has seen it he will quickly convince himself that he cannot live without it. Drives emotional buying decisions. Some customers might never notice that this has no real value. Customers with unrewarded expectations will turn nasty as they require the "bugs" be fixed to live up to their unfulfilled expectation, something that can never be done as the feature is inherently flawed and useless. 
 
@@ -246,7 +264,9 @@ Note: stay away from functionality that is all Wow and no practical use - This i
 **Functionality vs Satisfaction:** Satisfaction increases in the beginning and then turns into dissatisfaction as the feature does not deliver in spite of continued "improvement".
 
 # Behind the Scenes functionality (Honorable Mention)
-![][image18]**Description:** Functionality that improves Company's operations, but means nothing to the internal or external customers, as they won't be aware of it.
+![][image18]
+
+**Description:** Functionality that improves Company's operations, but means nothing to the internal or external customers, as they won't be aware of it.
 
 Cost reduction features go in this category. 
 
